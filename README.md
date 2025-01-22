@@ -1,50 +1,30 @@
-# React + TypeScript + Vite
+<h1 align="center">XORA - SaaS Landing Page</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/palette/macchiato.png" width="400" />
+</p>
 
-Currently, two official plugins are available:
+## Introduction
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Xora is a Modern UI/UX SaaS website developed using React.js and Tailwind CSS that exemplifies modern UI/UX principles. Its sleek design, seamless animations, and overall user experience set a high standard, serving as a reference or inspiration for future modern applications or websites in general.
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+ <img src="https://skill-icons-livid.vercel.app/icons?i=react,tailwind,ts,vite&gap=60" height="36" />
 
-- Configure the top-level `parserOptions` property like this:
+- UI libs: react-scroll, react-countup, react-slidedown
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-});
-```
+## Features
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+- Stunning Sections: Includes hero, features, pricing (monthly/yearly), FAQ, testimonials, and download software sections.
+- Smooth Animations: Complex CSS for fluid animations and eye-catching effects.
+- Cool CSS Gradients: Beautiful gradient effects using CSS before and after pseudo-elements.
+- Seamless Navigation: Offers a smooth user experience with intuitive navigation and scrolling.
+- Optimized Performance: Built for fast loading and an optimized experience.
+- Pixel Perfect Design: Ensures flawless responsiveness across all devices and screen sizes.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react';
+and many more, including code architecture and reusability
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-});
-```
+## References
+
+- [Origin project](https://github.com/adrianhajdin/xora) from JSMastery
