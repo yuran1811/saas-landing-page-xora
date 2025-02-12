@@ -54,13 +54,12 @@ Make sure you have the following installed on your machine:
 
 - [Git](https://git-scm.com/)
 - [Node.js](https://nodejs.org/en)
-- [npm](https://www.npmjs.com/) (Node Package Manager)
 
 **Cloning the Repository**
 
 ```bash
-git clone https://github.com/yuran1811/audio-reactive-visual.git
-cd audio-reactive-visual
+git clone https://github.com/yuran1811/saas-landing-page-xora.git
+cd saas-landing-page-xora
 ```
 
 **Installation**
